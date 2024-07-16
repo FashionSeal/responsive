@@ -1,4 +1,8 @@
 @media (min-width:0) and (max-width: 575px){
+    .bsh{
+        display: none !important;
+    }
+
     .zugger{
         margin: 0px 0 0 0;
         background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%); padding: 50px 100px 0 100px
@@ -37,10 +41,85 @@
         display: flex;
         justify-content: center;
     }
+
+    .e{
+       color: transparent !important; 
+    }
+    
+    .g{
+       color: transparent !important;
+    }
+
+    .h{
+       color: transparent !important;
+       width: 1% !important;
+    }
+
+    .i{
+      color: transparent !important;
+      width: 1% !important;
+    }
+
+    .j{
+       color: transparent !important; 
+       width: 24% !important;
+    }
+
+    .jj{
+       color: transparent !important; 
+       width: 40% !important;
+    }
     
     .funniest{
         text-align: center;
     }
+
+    .emal{
+    width: 75%;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+}
+
+.emal2{
+    width: 75%;
+    height: 60px;
+    background-color: transparent;
+    border: transparent;
+    padding: 25px;
+    border-radius: 37px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18.15px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.emal2:focus {
+    outline: none;
+    color: white;
+}
+
+.emalbtn{
+    background-color: #EB5757;
+    width: 139px;
+    height: 50px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
 
     .container{
         max-width: 100%;
@@ -80,6 +159,10 @@
     }
 }
 @media (min-width:576px) and (max-width: 767px){
+    .bsh{
+        display: none !important;
+    }
+
 
     .zugger{
         margin: 0px 0 0 0;
@@ -116,8 +199,32 @@
         justify-content: center;
     }
 
-    table.k{
-        width: 100px
+   .e{
+       color: transparent !important; 
+    }
+    
+    .g{
+       color: transparent !important;
+    }
+
+    .h{
+       color: transparent !important;
+       width: 1% !important;
+    }
+
+    .i{
+      color: transparent !important;
+      width: 1% !important;
+    }
+
+    .j{
+       color: transparent !important; 
+       width: 24% !important;
+    }
+
+    .jj{
+       color: transparent !important; 
+       width: 40% !important;
     }
 
     header{
@@ -127,6 +234,53 @@
     .funner{
         flex-basis: calc((100%/12)*7);
     }
+
+    .emal{
+    width: 478px;
+    height: 74px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+}
+
+.emal2{
+    width: 478px;
+    height: 74px;
+    background-color: transparent;
+    border: transparent;
+    padding: 25px;
+    border-radius: 37px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18.15px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.emal2:focus {
+    outline: none;
+    color: white;
+}
+
+.emalbtn{
+    background-color: #EB5757;
+    width: 139px;
+    height: 62px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
 
     .funniest{
         text-align: center;
@@ -167,6 +321,10 @@
     }
 }
 @media (min-width:768px) and (max-width: 991px){
+    .bsh{
+        display: none !important;
+    }
+
     .zugger{
         margin: 0px 0 0 0;
         background: linear-gradient(227.07deg, #4E0062 0.43%, #220076 99.56%); padding: 50px 100px 0 100px
@@ -199,87 +357,29 @@
     }
 
     .e{
-        display: none;
+       color: transparent !important; 
     }
-
-    .f{
-        color: transparent;
-    }
-
-    .f::after{
-        color: white;
-        content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Name";
-    }
-
+    
     .g{
-        display: none;
+       padding-left: 5%;
     }
 
     .h{
-        opacity: 0;
+       padding-left: 50px;
     }
 
     .i{
-        opacity: 0;
+      padding-left: 50px;
     }
 
     .j{
-        color: transparent
+       color: transparent !important; 
+       width: 15% !important;
     }
 
-    .k{
-        color: transparent
-    }
-
-    td{
-        color: transparent !important;
-    }
-
-    .l{
-        color: white;
-    }
-
-    tr td:nth-of-type(6){
-        display: none;
-    }
-
-    tr td:nth-of-type(4){
-        display: block;
-    }
-
-    tr td:nth-of-type(5){
-        display: block;
-    }
-
-
-    tr:nth-child(2){
-        color: white;
-        opacity: 0;
-        display: contents !important;
-    }
-
-    .m{
-        margin-right: -500px;
-    }
-
-    .n{
-        margin-left: -200px
-    }
-
-    .k::after{
-        color: white;
-        opacity: 1 !important;
-        content: 
-        "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\Volume(24h)"
-    }
-
-    table.f{
-        table-layout: fixed;
-        width: 100%
-    }
-
-    table.k{
-        width: 100px
+    .jj{
+       color: transparent !important; 
+       width: 25% !important;
     }
 
     header{
@@ -289,6 +389,53 @@
     .funner{
         flex-basis: calc((100%/12)*7);
     }
+
+    .emal{
+    width: 578px;
+    height: 74px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+}
+
+.emal2{
+    width: 578px;
+    height: 74px;
+    background-color: transparent;
+    border: transparent;
+    padding: 25px;
+    border-radius: 37px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18.15px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.emal2:focus {
+    outline: none;
+    color: white;
+}
+
+.emalbtn{
+    background-color: #EB5757;
+    width: 139px;
+    height: 62px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
 
     .funniest{
         text-align: center;
@@ -335,6 +482,14 @@
     }
 }
 @media (min-width:992px) and (max-width: 1199px){
+    .funeg{
+    height: 504px !important;
+    }
+
+    .bsh{
+        display: none !important;
+    }
+
     .zugger{
         margin: -90px 0 0 0;
     }
@@ -371,6 +526,53 @@
     .funny{
         gap: 10px
     }
+
+    .emal{
+    width: 578px;
+    height: 74px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+}
+
+.emal2{
+    width: 578px;
+    height: 74px;
+    background-color: transparent;
+    border: transparent;
+    padding: 25px;
+    border-radius: 37px;
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    line-height: 18.15px;
+    text-align: start;
+    font-weight: 400;
+}
+
+.emal2:focus {
+    outline: none;
+    color: white;
+}
+
+.emalbtn{
+    background-color: #EB5757;
+    width: 139px;
+    height: 62px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
 
     .container{
         max-width: 960px;
@@ -409,6 +611,13 @@
     }
 }
 @media (min-width:1200px) and (max-width: 1399px){
+    .funeg{
+    height: 504px !important;
+    }
+
+    .bdh{
+        display: none !important;
+    }
     .zugger{
         margin: -90px 0 0 0;
     }
@@ -444,6 +653,53 @@
 
     .funny{
         gap: 20px
+    }
+
+    .emal{
+    width: 578px;
+    height: 74px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+    }
+
+    .emal2{
+        width: 578px;
+        height: 74px;
+        background-color: transparent;
+        border: transparent;
+        padding: 25px;
+        border-radius: 37px;
+        color: white;
+        font-family: 'Inter';
+        font-size: 15px;
+        line-height: 18.15px;
+        text-align: start;
+        font-weight: 400;
+    }
+
+    .emal2:focus {
+        outline: none;
+        color: white;
+    }
+
+    .emalbtn{
+        background-color: #EB5757;
+        width: 139px;
+        height: 62px;
+        border-radius: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        color: white;
+        transition: all 0.4s ease-in-out;
     }
 
 
@@ -484,6 +740,14 @@
     }
 }
 @media (min-width:1400px){
+    .funeg{
+    height: 504px !important;
+    }
+
+    .bdh{
+        display: none !important;
+    }
+
     .zugger{
         margin: -90px 0 0 0;
     }
@@ -515,6 +779,53 @@
 
     .funny{
         gap: 36.25px
+    }
+
+    .emal{
+    width: 578px;
+    height: 74px;
+    border: 2px solid white;
+    border-radius: 37px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0.975px 7.5px 0 0 
+    }
+
+    .emal2{
+        width: 578px;
+        height: 74px;
+        background-color: transparent;
+        border: transparent;
+        padding: 25px;
+        border-radius: 37px;
+        color: white;
+        font-family: 'Inter';
+        font-size: 15px;
+        line-height: 18.15px;
+        text-align: start;
+        font-weight: 400;
+    }
+
+    .emal2:focus {
+        outline: none;
+        color: white;
+    }
+
+    .emalbtn{
+        background-color: #EB5757;
+        width: 139px;
+        height: 62px;
+        border-radius: 31px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: transparent;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        color: white;
+        transition: all 0.4s ease-in-out;
     }
 
     .container{
@@ -674,7 +985,7 @@
 
 .stats{
     position: relative;
-    height: 700px;
+    height: 800px;
     width: 100%;
     margin: 0 auto;
 }
@@ -699,6 +1010,11 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.funeg{
+    height: 100%;
 }
 
 .intro p, span, div, a{
@@ -1106,53 +1422,6 @@ table{
     font-family: 'Inter'
 }
 
-.emal{
-    width: 578px;
-    height: 74px;
-    border: 2px solid white;
-    border-radius: 37px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 0.975px 7.5px 0 0 
-}
-
-.emal2{
-    width: 578px;
-    height: 74px;
-    background-color: transparent;
-    border: transparent;
-    padding: 25px;
-    border-radius: 37px;
-    color: white;
-    font-family: 'Inter';
-    font-size: 15px;
-    line-height: 18.15px;
-    text-align: start;
-    font-weight: 400;
-}
-
-.emal2:focus {
-    outline: none;
-    color: white;
-}
-
-.emalbtn{
-    background-color: #EB5757;
-    width: 139px;
-    height: 62px;
-    border-radius: 31px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: transparent;
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 500;
-    color: white;
-    transition: all 0.4s ease-in-out;
-}
-
 .btn{
     transition: all 0.2s ease-in-out;
     outline: 1px solid transparent;
@@ -1263,7 +1532,14 @@ table{
     src: url('assets/app.png');
 }
 
+.funh{
+    border-top: 0.6px solid #BDBDBD;
+    border-bottom: 0.6px solid #BDBDBD;
+}
 
+.meh{
+    font-family: 'Inter'
+}
 
 
 
